@@ -15,17 +15,14 @@ def DrawCube(Anyturtle,l,w):
 DrawCube(Anyturtle,l,w)
 
 import turtle
-turtle = turtle.Turtle()
-Anyturtle = 120
-l = 90
-w = 120
-def DrawCube(Anyturtle,l,w):
+cheese = turtle.Turtle()
+def DrawCube(cheese):
     turtle.forward(90)
     turtle.left(30)
     turtle.forward(40)
     turtle.left(60)
     turtle.forward(90)
-    turtle.left(l)
+    turtle.left(90)
     turtle.forward(90)
     turtle.left(30)
     turtle.forward(40)
@@ -33,8 +30,7 @@ def DrawCube(Anyturtle,l,w):
     turtle.forward(90)
     turtle.left(30)
     turtle.forward(40)
-DrawCube(Anyturtle,l,w)
-
+DrawCube(cheese)
 
 
 """Import and Call the DrawRectangle(Anyturtle, l, w) function from the
