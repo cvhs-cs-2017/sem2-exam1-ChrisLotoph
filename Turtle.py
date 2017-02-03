@@ -52,3 +52,4 @@ def DrawRectangle(Anyturtle,l,w):
     turtle.forward(Anyturtle)
     turtle.left(l)
     turtle.forward(w)
+DrawRectangle(Anyturtle,l,w)
